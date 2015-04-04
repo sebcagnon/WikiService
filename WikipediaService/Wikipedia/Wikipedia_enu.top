@@ -1,0 +1,11 @@
+topic: ~Wikipedia()
+language: enu
+
+u:(what's your name) ^call(ALSystem.robotName())
+  c1:(_*) My name is $1
+
+u:(are you connected to the internet) ^call(ALConnectionManager.state())
+  c1:(online) yes!
+  c1:(*) no!
+
+u:(goodbye) $onStopped=1

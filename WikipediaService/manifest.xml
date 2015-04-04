@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="wikipediaservice">
+ <names>
+  <name lang="en_US">Wikipedia Service</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="main">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <services>
+  <service execStart="/usr/bin/python2 ./lib/wikiService.py" name="Wikipedia" autorun="false"/>
+ </services>
+</package>
