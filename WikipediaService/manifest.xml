@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" uuid="wikipediaservice">
+<package uuid="wikipediaservice" version="0.0.0">
  <names>
   <name lang="en_US">Wikipedia Service</name>
  </names>
@@ -18,7 +18,4 @@
    <permissions/>
   </behaviorContent>
  </contents>
- <services>
-  <service execStart="/usr/bin/python2 ./lib/wikiService.py" name="Wikipedia" autorun="false"/>
- </services>
 </package>

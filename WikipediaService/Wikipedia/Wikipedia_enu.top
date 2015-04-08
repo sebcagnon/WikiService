@@ -1,11 +1,21 @@
 topic: ~Wikipedia()
 language: enu
 
+dynamic:WikiSearchResults
+
 u:(what's your name) ^call(ALSystem.robotName())
-  c1:(_*) My name is $1
+    c1:(_*) My name is $1
 
-u:(are you connected to the internet) ^call(ALConnectionManager.state())
-  c1:(online) yes!
-  c1:(*) no!
+u:(are you connected {to the internet}) ^call(ALConnectionManager.state())
+    c1:(online) yes!
+    c1:(*) no!
 
-u:(goodbye) $onStopped=1
+u:(say the list) ^enumerate(~WikiSearchResults)
+
+u:(make the search) Ok, let me see. ^call(Wikipedia.search('animal'))
+    c1:(error) I had an error
+    c1:(_*) \pau=500\ $1
+        u:(_[~WikiSearchResults]) Ok, let me tell you more about $1 . ^call(Wikipedia.get_summary(' $1 '))
+        c1:(_*)  \pau=500\ $1
+
+u:(goodbye) bye! $onStopped=1
