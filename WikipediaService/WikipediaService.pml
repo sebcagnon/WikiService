@@ -127,6 +127,57 @@
         <File name="exceptions" src="lib/wikipedia/exceptions.py" />
         <File name="util" src="lib/wikipedia/util.py" />
         <File name="wikipedia" src="lib/wikipedia/wikipedia.py" />
+        <File name="__init__" src="lib/bs4/__init__.pyc" />
+        <File name="__init__" src="lib/bs4/builder/__init__.pyc" />
+        <File name="_html5lib" src="lib/bs4/builder/_html5lib.pyc" />
+        <File name="_htmlparser" src="lib/bs4/builder/_htmlparser.pyc" />
+        <File name="_lxml" src="lib/bs4/builder/_lxml.pyc" />
+        <File name="dammit" src="lib/bs4/dammit.pyc" />
+        <File name="element" src="lib/bs4/element.pyc" />
+        <File name="__init__" src="lib/requests/__init__.pyc" />
+        <File name="adapters" src="lib/requests/adapters.pyc" />
+        <File name="api" src="lib/requests/api.pyc" />
+        <File name="auth" src="lib/requests/auth.pyc" />
+        <File name="certs" src="lib/requests/certs.pyc" />
+        <File name="compat" src="lib/requests/compat.pyc" />
+        <File name="cookies" src="lib/requests/cookies.pyc" />
+        <File name="exceptions" src="lib/requests/exceptions.pyc" />
+        <File name="hooks" src="lib/requests/hooks.pyc" />
+        <File name="models" src="lib/requests/models.pyc" />
+        <File name="__init__" src="lib/requests/packages/__init__.pyc" />
+        <File name="__init__" src="lib/requests/packages/chardet/__init__.pyc" />
+        <File name="__init__" src="lib/requests/packages/urllib3/__init__.pyc" />
+        <File name="_collections" src="lib/requests/packages/urllib3/_collections.pyc" />
+        <File name="connection" src="lib/requests/packages/urllib3/connection.pyc" />
+        <File name="connectionpool" src="lib/requests/packages/urllib3/connectionpool.pyc" />
+        <File name="__init__" src="lib/requests/packages/urllib3/contrib/__init__.pyc" />
+        <File name="pyopenssl" src="lib/requests/packages/urllib3/contrib/pyopenssl.pyc" />
+        <File name="exceptions" src="lib/requests/packages/urllib3/exceptions.pyc" />
+        <File name="fields" src="lib/requests/packages/urllib3/fields.pyc" />
+        <File name="filepost" src="lib/requests/packages/urllib3/filepost.pyc" />
+        <File name="__init__" src="lib/requests/packages/urllib3/packages/__init__.pyc" />
+        <File name="ordered_dict" src="lib/requests/packages/urllib3/packages/ordered_dict.pyc" />
+        <File name="six" src="lib/requests/packages/urllib3/packages/six.pyc" />
+        <File name="__init__" src="lib/requests/packages/urllib3/packages/ssl_match_hostname/__init__.pyc" />
+        <File name="poolmanager" src="lib/requests/packages/urllib3/poolmanager.pyc" />
+        <File name="request" src="lib/requests/packages/urllib3/request.pyc" />
+        <File name="response" src="lib/requests/packages/urllib3/response.pyc" />
+        <File name="__init__" src="lib/requests/packages/urllib3/util/__init__.pyc" />
+        <File name="connection" src="lib/requests/packages/urllib3/util/connection.pyc" />
+        <File name="request" src="lib/requests/packages/urllib3/util/request.pyc" />
+        <File name="response" src="lib/requests/packages/urllib3/util/response.pyc" />
+        <File name="retry" src="lib/requests/packages/urllib3/util/retry.pyc" />
+        <File name="ssl_" src="lib/requests/packages/urllib3/util/ssl_.pyc" />
+        <File name="timeout" src="lib/requests/packages/urllib3/util/timeout.pyc" />
+        <File name="url" src="lib/requests/packages/urllib3/util/url.pyc" />
+        <File name="sessions" src="lib/requests/sessions.pyc" />
+        <File name="status_codes" src="lib/requests/status_codes.pyc" />
+        <File name="structures" src="lib/requests/structures.pyc" />
+        <File name="utils" src="lib/requests/utils.pyc" />
+        <File name="__init__" src="lib/wikipedia/__init__.pyc" />
+        <File name="exceptions" src="lib/wikipedia/exceptions.pyc" />
+        <File name="util" src="lib/wikipedia/util.pyc" />
+        <File name="wikipedia" src="lib/wikipedia/wikipedia.pyc" />
     </Resources>
     <Topics>
         <Topic name="Wikipedia_enu" src="Wikipedia/Wikipedia_enu.top" topicName="Wikipedia" language="en_US" />

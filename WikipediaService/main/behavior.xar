@@ -58,6 +58,12 @@
             sys.path.remove(self.libPath)
 
     def onInput_onStart(self):
+        try:
+            self.session().service('Wikipedia')
+            self.onStopped()
+            return
+        except RuntimeError:
+            pass # need to register the service
         import sys
         if self.libPath not in sys.path:
             sys.path.insert(0, self.libPath)

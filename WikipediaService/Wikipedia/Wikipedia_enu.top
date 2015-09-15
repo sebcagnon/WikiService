@@ -14,7 +14,7 @@ u:(say the list) ^enumerate(~WikiSearchResults)
 
 u:(make the search) Ok, let me see. ^call(Wikipedia.search('animal'))
     c1:(error) I had an error
-    c1:(_*) \pau=500\ $1
+    c1:(_*) \pau=500\ do you want to know
         u:(_[~WikiSearchResults]) Ok, let me tell you more about $1 . ^call(Wikipedia.get_summary(' $1 '))
         c1:(_*)  \pau=500\ $1
 
